@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Task 1
+      local_action: shell /bin/true
+    - name: Task 2
+      local_action: shell /bin/true
+    - name: Task 3
+      local_action: shell /bin/true
+    - name: Task 4
+      local_action: shell /bin/true
+
